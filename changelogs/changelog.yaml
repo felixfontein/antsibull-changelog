@@ -595,3 +595,13 @@ releases:
       - 207-python.yml
       - 213-markup.yml
     release_date: '2026-01-11'
+  0.35.1:
+    changes:
+      bugfixes:
+        - Ensure that there is a newline between the Table of Contents in rendered
+          MarkDown documents and following text content (https://github.com/ansible-community/antsibull-changelog/pull/217).
+      release_summary: Bugfix release.
+    fragments:
+      - 0.35.1.yml
+      - 217-md-toc-newline.yml
+    release_date: '2026-05-18'

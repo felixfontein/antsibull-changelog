@@ -4,6 +4,19 @@ Ansible Changelog Tool Release Notes
 
 .. contents:: Topics
 
+v0.35.1
+=======
+
+Release Summary
+---------------
+
+Bugfix release.
+
+Bugfixes
+--------
+
+- Ensure that there is a newline between the Table of Contents in rendered MarkDown documents and following text content (https://github.com/ansible-community/antsibull-changelog/pull/217).
+
 v0.35.0
 =======
 
